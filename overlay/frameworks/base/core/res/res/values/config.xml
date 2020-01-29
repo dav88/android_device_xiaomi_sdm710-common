@@ -369,4 +369,7 @@
 
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
+
+    <!-- Whether to use in-built Screen Record service -->
+    <bool name="config_showScreenRecord">true</bool>
 </resources>
