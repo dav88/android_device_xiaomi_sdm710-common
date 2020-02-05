@@ -137,6 +137,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     libdng_sdk.vendor \
+	
     Snap \
     vendor.qti.hardware.camera.device@1.0.vendor
 
@@ -366,6 +367,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK-SP
 PRODUCT_PACKAGES += \
+    libstdc++.vendor \
     vndk-sp
 
 # WiFi
