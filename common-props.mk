@@ -50,7 +50,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     camera.disable_zsl_mode=true \
-    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
+    vendor.camera.aux.packagelist=com.google.android.GoogleCamera,org.codeaurora.snapcam,com.android.camera,com.camera2.test,org.lineageos.snapcam \
+    vendor.camera.aux.packagelist.ext=com.xiaomi.biometric,com.xiaomi.biometric.haldemo,com.xiaomi.factory.mmi
 
 
 # CNE and DPM
