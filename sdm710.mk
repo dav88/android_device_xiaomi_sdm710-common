@@ -158,6 +158,10 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qcom.usb.sh
 
+# Config panel
+PRODUCT_PACKAGES += \
+    ConfigPanel
+
 # Context Hub
 PRODUCT_PACKAGES += \
     android.hardware.contexthub@1.0-impl.generic \
